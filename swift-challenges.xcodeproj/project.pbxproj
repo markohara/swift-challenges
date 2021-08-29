@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2B5C674D26DBC77700932056 /* swift_challenges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5C674326DBC77600932056 /* swift_challenges.framework */; };
 		2B5C675226DBC77700932056 /* swift_challengesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5C675126DBC77700932056 /* swift_challengesTests.swift */; };
-		2B5C675426DBC77700932056 /* swift_challenges.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5C674626DBC77600932056 /* swift_challenges.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +23,6 @@
 
 /* Begin PBXFileReference section */
 		2B5C674326DBC77600932056 /* swift_challenges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = swift_challenges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B5C674626DBC77600932056 /* swift_challenges.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swift_challenges.h; sourceTree = "<group>"; };
 		2B5C674726DBC77600932056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B5C674C26DBC77700932056 /* swift-challengesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-challengesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5C675126DBC77700932056 /* swift_challengesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_challengesTests.swift; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 		2B5C674526DBC77600932056 /* swift-challenges */ = {
 			isa = PBXGroup;
 			children = (
-				2B5C674626DBC77600932056 /* swift_challenges.h */,
 				2B5C674726DBC77600932056 /* Info.plist */,
 			);
 			path = "swift-challenges";
@@ -93,7 +90,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B5C675426DBC77700932056 /* swift_challenges.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
