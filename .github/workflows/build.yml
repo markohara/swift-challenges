@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build-test:
+  build:
 
     runs-on: macos-11
 
@@ -21,4 +21,4 @@ jobs:
       run: /usr/bin/xcodebuild -version
 
     - name: Build
-      run: xcodebuild
+      run: xcodebuild -project swift-challenges.xcodeproj -scheme "swift-challengesTests" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -sdk macosx -destination "platform=macOS" ONLY_ACTIVE_ARCH=YES
