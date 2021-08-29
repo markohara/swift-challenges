@@ -1,4 +1,4 @@
-name: Swift
+name: CI
 
 on:
   push:
@@ -7,14 +7,11 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  build-test:
 
     runs-on: macos-latest
 
     steps:
     - uses: actions/checkout@v2
-    - name: Build
-      run: xcodebuild
- 
-    - name: Run tests
-      run: xcodebuild clean test -project swift-challenges.xcodeproj -scheme "swift-challengesTests"
+    - name: build and test
+      run: xcodebuild clean test -project swift-challenges.xcodeproj -scheme "swift-challengesTests" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -sdk macosx -destination "platform=macOS" ONLY_ACTIVE_ARCH=YES
