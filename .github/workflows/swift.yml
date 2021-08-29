@@ -13,5 +13,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
+    - name: Select Xcode
+      run: sudo xcode-select -switch /Applications/Xcode_12.5.app
+      
+    - name: Xcode version
+      run: /usr/bin/xcodebuild -version
+
     - name: build and test
       run: xcodebuild clean test -project swift-challenges.xcodeproj -scheme "swift-challengesTests" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -sdk macosx -destination "platform=macOS" ONLY_ACTIVE_ARCH=YES
