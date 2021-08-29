@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2B5C674D26DBC77700932056 /* swift_challenges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5C674326DBC77600932056 /* swift_challenges.framework */; };
+		2B5C676E26DBC95B00932056 /* LC-704.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5C676D26DBC95B00932056 /* LC-704.swift */; };
+		2B5C677226DBC9D500932056 /* LC-704Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5C677126DBC9D500932056 /* LC-704Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,8 @@
 		2B5C674726DBC77600932056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B5C674C26DBC77700932056 /* swift-challengesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-challengesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5C675326DBC77700932056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5C676D26DBC95B00932056 /* LC-704.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC-704.swift"; sourceTree = "<group>"; };
+		2B5C677126DBC9D500932056 /* LC-704Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC-704Tests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 		2B5C676326DBC8DF00932056 /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				2B5C676D26DBC95B00932056 /* LC-704.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -92,6 +97,7 @@
 		2B5C676826DBC90700932056 /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				2B5C677126DBC9D500932056 /* LC-704Tests.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -156,9 +162,11 @@
 				TargetAttributes = {
 					2B5C674226DBC77600932056 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					2B5C674B26DBC77700932056 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 				};
 			};
@@ -203,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B5C676E26DBC95B00932056 /* LC-704.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B5C677226DBC9D500932056 /* LC-704Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +358,7 @@
 		2B5C675826DBC77700932056 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -365,6 +376,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "co.uk.markohara.swift-challenges";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -372,6 +384,7 @@
 		2B5C675926DBC77700932056 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -396,6 +409,8 @@
 		2B5C675B26DBC77700932056 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = T6X94NZRAU;
@@ -407,6 +422,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.uk.markohara.swift-challengesTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -414,6 +430,8 @@
 		2B5C675C26DBC77700932056 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = T6X94NZRAU;
