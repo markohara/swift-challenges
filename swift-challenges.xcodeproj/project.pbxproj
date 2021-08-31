@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2B4A92F126DEC08300DC4F1C /* LC-278.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A92F026DEC08300DC4F1C /* LC-278.swift */; };
 		2B4A92F526DEC0A300DC4F1C /* LC-278Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A92F426DEC0A300DC4F1C /* LC-278Tests.swift */; };
+		2B4A92FD26DECD2A00DC4F1C /* LC-38.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A92FC26DECD2A00DC4F1C /* LC-38.swift */; };
+		2B4A930126DECD6B00DC4F1C /* LC-38Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A930026DECD6B00DC4F1C /* LC-38Tests.swift */; };
 		2B5C674D26DBC77700932056 /* swift_challenges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5C674326DBC77600932056 /* swift_challenges.framework */; };
 		2B5C676E26DBC95B00932056 /* LC-704.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5C676D26DBC95B00932056 /* LC-704.swift */; };
 		2B5C677226DBC9D500932056 /* LC-704Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5C677126DBC9D500932056 /* LC-704Tests.swift */; };
@@ -27,6 +29,8 @@
 /* Begin PBXFileReference section */
 		2B4A92F026DEC08300DC4F1C /* LC-278.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC-278.swift"; sourceTree = "<group>"; };
 		2B4A92F426DEC0A300DC4F1C /* LC-278Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC-278Tests.swift"; sourceTree = "<group>"; };
+		2B4A92FC26DECD2A00DC4F1C /* LC-38.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC-38.swift"; sourceTree = "<group>"; };
+		2B4A930026DECD6B00DC4F1C /* LC-38Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC-38Tests.swift"; sourceTree = "<group>"; };
 		2B5C674326DBC77600932056 /* swift_challenges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = swift_challenges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5C674726DBC77600932056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B5C674C26DBC77700932056 /* swift-challengesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-challengesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +99,7 @@
 			children = (
 				2B5C676D26DBC95B00932056 /* LC-704.swift */,
 				2B4A92F026DEC08300DC4F1C /* LC-278.swift */,
+				2B4A92FC26DECD2A00DC4F1C /* LC-38.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 			children = (
 				2B5C677126DBC9D500932056 /* LC-704Tests.swift */,
 				2B4A92F426DEC0A300DC4F1C /* LC-278Tests.swift */,
+				2B4A930026DECD6B00DC4F1C /* LC-38Tests.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -219,6 +225,7 @@
 			files = (
 				2B4A92F126DEC08300DC4F1C /* LC-278.swift in Sources */,
 				2B5C676E26DBC95B00932056 /* LC-704.swift in Sources */,
+				2B4A92FD26DECD2A00DC4F1C /* LC-38.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B4A92F526DEC0A300DC4F1C /* LC-278Tests.swift in Sources */,
+				2B4A930126DECD6B00DC4F1C /* LC-38Tests.swift in Sources */,
 				2B5C677226DBC9D500932056 /* LC-704Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
