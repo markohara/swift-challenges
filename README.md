@@ -9,3 +9,4 @@
 | [Leetcode 278](https://leetcode.com/problems/first-bad-version/)| First Bad Version | Easy |[Implementation](./swift-challenges/Leetcode/LC-278.swift) | [Tests](./swift-challengesTests/Leetcode/LC-278Tests.swift) 
 | [Leetcode 38](https://leetcode.com/problems/search-insert-position/)| Search Insert Position | Easy |[Implementation](./swift-challenges/Leetcode/LC-38.swift) | [Tests](./swift-challengesTests/Leetcode/LC-38Tests.swift) 
 | [Leetcode 977](https://leetcode.com/problems/squares-of-a-sorted-array/)| Squares of a Sorted Array | Easy |[Implementation](./swift-challenges/Leetcode/LC-977.swift) | [Tests](./swift-challengesTests/Leetcode/LC-977Tests.swift) 
+| [Leetcode 1](https://leetcode.com/problems/two-sum/)| Two Sum | Easy |[Implementation](./swift-challenges/Leetcode/LC-1.swift) | [Tests](./swift-challengesTests/Leetcode/LC-1Tests.swift) 
