@@ -4,7 +4,7 @@ import Foundation
 /// https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
 ///
 /// Time Complexity: O(n)
-/// Space Complexity: O(n)
+/// Space Complexity: O(1)
 
 class LC1295 {
     func findNumbers(_ nums: [Int]) -> Int {
