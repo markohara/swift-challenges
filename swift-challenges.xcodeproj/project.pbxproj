@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0DDB2A270B98F900865C5C /* LC-1295.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DDB29270B98F900865C5C /* LC-1295.swift */; };
+		2B0DDB2C270B99A300865C5C /* LC-1295Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DDB2B270B99A300865C5C /* LC-1295Tests.swift */; };
 		2B4A92F126DEC08300DC4F1C /* LC-278.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A92F026DEC08300DC4F1C /* LC-278.swift */; };
 		2B4A92F526DEC0A300DC4F1C /* LC-278Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A92F426DEC0A300DC4F1C /* LC-278Tests.swift */; };
 		2B4A92FD26DECD2A00DC4F1C /* LC-38.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A92FC26DECD2A00DC4F1C /* LC-38.swift */; };
@@ -31,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B0DDB29270B98F900865C5C /* LC-1295.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC-1295.swift"; sourceTree = "<group>"; };
+		2B0DDB2B270B99A300865C5C /* LC-1295Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC-1295Tests.swift"; sourceTree = "<group>"; };
 		2B4A92F026DEC08300DC4F1C /* LC-278.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC-278.swift"; sourceTree = "<group>"; };
 		2B4A92F426DEC0A300DC4F1C /* LC-278Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC-278Tests.swift"; sourceTree = "<group>"; };
 		2B4A92FC26DECD2A00DC4F1C /* LC-38.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC-38.swift"; sourceTree = "<group>"; };
@@ -110,6 +114,7 @@
 				2B4A92FC26DECD2A00DC4F1C /* LC-38.swift */,
 				2B4A930426DED46B00DC4F1C /* LC-977.swift */,
 				2B4A931026E01DD100DC4F1C /* LC-1.swift */,
+				2B0DDB29270B98F900865C5C /* LC-1295.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 				2B4A930026DECD6B00DC4F1C /* LC-38Tests.swift */,
 				2B4A930826DED4B000DC4F1C /* LC-977Tests.swift */,
 				2B4A931426E01E2100DC4F1C /* LC-1Tests.swift */,
+				2B0DDB2B270B99A300865C5C /* LC-1295Tests.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -238,6 +244,7 @@
 				2B4A931126E01DD100DC4F1C /* LC-1.swift in Sources */,
 				2B4A92F126DEC08300DC4F1C /* LC-278.swift in Sources */,
 				2B5C676E26DBC95B00932056 /* LC-704.swift in Sources */,
+				2B0DDB2A270B98F900865C5C /* LC-1295.swift in Sources */,
 				2B4A930526DED46B00DC4F1C /* LC-977.swift in Sources */,
 				2B4A92FD26DECD2A00DC4F1C /* LC-38.swift in Sources */,
 			);
@@ -248,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B4A92F526DEC0A300DC4F1C /* LC-278Tests.swift in Sources */,
+				2B0DDB2C270B99A300865C5C /* LC-1295Tests.swift in Sources */,
 				2B4A930126DECD6B00DC4F1C /* LC-38Tests.swift in Sources */,
 				2B5C677226DBC9D500932056 /* LC-704Tests.swift in Sources */,
 				2B4A930926DED4B000DC4F1C /* LC-977Tests.swift in Sources */,
