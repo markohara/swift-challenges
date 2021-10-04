@@ -10,8 +10,8 @@ class LC1295 {
     func findNumbers(_ nums: [Int]) -> Int {
         var result = 0
         
-        nums.forEach {
-            if isEven($0) { result += 1}
+        for num in nums {
+            if isEven(num) { result += 1}
         }
         
         return result
